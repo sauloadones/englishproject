@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -5,47 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio </title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../public/style.css">
 </head> 
 <body>
-    <header class="menu">
-       <nav class="menu_nav">
-            <a class="menu_link" href="pagina.html"> Home </a>
-            <a class="menu_link" href="characteriscts.html"> About Myself</a>
-       </nav>
-    </header>
-    <main class="second_page">
-        
-        <ul class="first_list" <title>A little bit about my portfolio</title>
-            <title> Some studys that i did in the past</title>
-            <li>
-                Cisco's Marathon - Network Security
 
-            </li>
-            <li>CCNA - 1</li>
-            <li> CCNA - 2</li>
-            <li>Introduction to Programming with C Language</li>
-            <li> Network Computer</li>
-            <li>Introduction to Docker</li>
-            <li> Windows Server</li>
-            
-        </ul>
-        
-       
-       
-        <ul class="second_list" <title>Courses that i plan to do it in the foreseeable future</title>
-            <li> Senac CyberOps</li>
-            <li> Cisco CyperOps</li>
-            <li> Python Basic to Advanced</li>
-            <li> Desec Security</li>
-            <li> Java and Groover </li>
-            
-        </ul>
-        
+
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/englishproject/views/pagina.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/englishproject/views/characteriscts.html">About Myself</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/englishproject/views/formulario.html">Forms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+
+        <section class="mb-4">
+            <h2 class="mb-3">A Little Bit About My Portfolio</h2>
+            <h3>Some Studies That I Did in the Past</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Cisco's Marathon - Network Security</li>
+                <li class="list-group-item">CCNA - 1</li>
+                <li class="list-group-item">CCNA - 2</li>
+                <li class="list-group-item">Introduction to Programming with C Language</li>
+                <li class="list-group-item">Network Computer</li>
+                <li class="list-group-item">Introduction to Docker</li>
+                <li class="list-group-item">Windows Server</li>
+            </ul>
+        </section>
+
+    
+        <section>
+            <h3>Courses That I Plan to Do in the Foreseeable Future</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Senac CyberOps</li>
+                <li class="list-group-item">Cisco CyperOps</li>
+                <li class="list-group-item">Python Basic to Advanced</li>
+                <li class="list-group-item">Desec Security</li>
+                <li class="list-group-item">Java and Groovy</li>
+            </ul>
+        </section>
     </main>
 
-    <footer>
-        <p class="footer_main"> Developed by Saulo.</p>
+    <footer class="bg-light text-center py-3 mt-5">
+        <p class="footer_main">Developed by Saulo.</p>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
